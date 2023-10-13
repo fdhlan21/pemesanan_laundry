@@ -12,6 +12,11 @@ import HomeScreen from '../../pages/home';
 import InformasiLaundry from '../../pages/infomrasilaundry';
 import AmbilTanpaRibet from '../../pages/ambiltanparibet';
 import AmbilTanpaRibet2 from '../../pages/ambiltanparibet/index2';
+import AmbilTanpaRibet3 from '../../pages/ambiltanparibet/index3';
+import AmbilTanpaRibet4 from '../../pages/ambiltanparibet/index4';
+import PilihSendiri1 from '../../pages/pilihsendiri';
+import PilihSendiri2 from '../../pages/pilihsendiri/index2';
+import PilihSendiri3 from '../../pages/pilihsendiri/index3';
 
 
 const Stack = createNativeStackNavigator();
@@ -27,6 +32,13 @@ function MyStack() {
         <Stack.Screen name="InformasiLaudnryScreen" component={InformasiLaundry} options={{headerShown:false}}/>
         <Stack.Screen name="AmbilTanpaRibet" component={AmbilTanpaRibet} options={{headerShown:false}}/>
         <Stack.Screen name="AmbilTanpaRibet2" component={AmbilTanpaRibet2} options={{headerShown:false}}/>
+        <Stack.Screen name="AmbilTanpaRibet3" component={AmbilTanpaRibet3} options={{headerShown:false}}/>
+        <Stack.Screen name="AmbilTanpaRibet4" component={AmbilTanpaRibet4} options={{headerShown:false}}/>
+        <Stack.Screen name="PilihSendiri1" component={PilihSendiri1} options={{headerShown:false}}/>
+        <Stack.Screen name="PilihSendiri2" component={PilihSendiri2} options={{headerShown:false}}/>
+        <Stack.Screen name="PilihSendiri3" component={PilihSendiri3} options={{headerShown:false}}/>
+
+
       </Stack.Navigator>
   );
 }

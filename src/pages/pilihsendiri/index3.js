@@ -6,7 +6,7 @@ import { Calenda1, LeftArrow, LogoLaundry, MapPointLogo } from '../../assets';
 import colors from '../../utils/colors';
 
 
-export default function AmbilTanpaRibet({ navigation }) {
+export default function PilihSendiri3({ navigation }) {
   const [isDatePickerVisible, setDatePickerVisibility] = useState(false);
   const [selectedDate, setSelectedDate] = useState(new Date());
   const [cuciSajaChecked, setCuciSajaChecked] = useState(false);
@@ -68,7 +68,7 @@ export default function AmbilTanpaRibet({ navigation }) {
         </TouchableOpacity>
         <View style={{ alignItems: 'center' }}>
           <Text style={{ color: 'white', fontFamily: 'Poppins-SemiBold', fontSize: 15, textAlign: 'center' }}>
-            Ambil Tanpa Ribet
+           Pilih Sendiri
           </Text>
         </View>
       </View>

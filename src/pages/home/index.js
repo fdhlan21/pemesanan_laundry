@@ -72,7 +72,7 @@ export default function HomeScreen({navigation}) {
                 </View>
 
                     <View style={{marginTop:30}}>
-                    <TouchableOpacity>
+                    <TouchableOpacity onPress={() => navigation.navigate("PilihSendiri1")}>
                         <Image style={{width:340, height:138}} source={ButtonPilihSendiri}/>
                     </TouchableOpacity>
                 </View>

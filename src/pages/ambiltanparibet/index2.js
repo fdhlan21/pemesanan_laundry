@@ -6,26 +6,11 @@ import { useNavigationBuilder } from '@react-navigation/native';
 
 
 export default function AmbilTanpaRibet2({ navigation }) {
-    const [typedText, setTypedText] = useState('');
-  const textToType = 'Rp 164.530';
-
-  useEffect(() => {
-    const typingInterval = 150; // Interval waktu antara setiap karakter diketik (dalam milidetik)
-    let currentIndex = 0;
-
-    const typingTimer = setInterval(() => {
-      if (currentIndex < textToType.length) {
-        setTypedText(textToType.slice(0, currentIndex + 1));
-        currentIndex++;
-      } else {
-        clearInterval(typingTimer);
-      }
-    }, typingInterval);
-
-    return () => {
-      clearInterval(typingTimer);
-    };
-  }, []);
+       useEffect(() => {
+        setTimeout(() => {
+            navigation.navigate("AmbilTanpaRibet3")
+        },2100)
+    },[])
 
   const handleBack = () => {
     navigation.goBack()
@@ -75,23 +60,12 @@ export default function AmbilTanpaRibet2({ navigation }) {
         {/* TOTAL */}
         <View style={{padding:20, flexDirection:'row', justifyContent:'center', marginTop:100}}>
         <View>
-            <Text style={{fontFamily:'Poppins-SemiBold', fontSize:20, }}>Total</Text>
+            <Text style={{fontFamily:'Poppins-SemiBold', fontSize:20, }}>Total            -</Text>
         </View>
 
-        <View style={{left: '50%'}}>
-            <Text style={{fontFamily:'Poppins-SemiBold', fontSize:20, textAlign:'center'}}>{typedText}</Text>
-        </View>
 
         </View>
       </View>
-
-
-
-        <View style={{padding:10, alignItems:'center', marginTop:'0%'}}>
-            <TouchableOpacity style={{padding:10, backgroundColor:colors.primary, width:'80%', color:'white', borderRadius:5, alignItems:'center'}}>
-                <Text style={{fontFamily:'Poppins-SemiBold', fontSize:15, color:'white', textAlign:'center', }}>Pesan</Text>
-            </TouchableOpacity>
-        </View>
       </ScrollView>
     </View>
   );
