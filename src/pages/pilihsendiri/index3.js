@@ -68,7 +68,7 @@ export default function PilihSendiri3({ navigation }) {
         </TouchableOpacity>
         <View style={{ alignItems: 'center' }}>
           <Text style={{ color: 'white', fontFamily: 'Poppins-SemiBold', fontSize: 15, textAlign: 'center' }}>
-           Pilih Sendiri
+           Pisah Sendiri
           </Text>
         </View>
       </View>

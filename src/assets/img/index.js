@@ -32,6 +32,8 @@ import SarungBantal from './sarung_bantal.png';
 import KoasKaki from './kaos_kaki.png';
 import CelanaDalam from './celana_dalam.png';
 import ThreeCircle from './tree_circleicon.png';
+import QrisLaundry from './qris_laundry.png';
+import LogoCeklis from './ceklis.png';
 
 
 
@@ -41,4 +43,4 @@ import ThreeCircle from './tree_circleicon.png';
 export { LogoLaundry, HidePass, ShowPass, MeProfile, Notify, ButtonPilihSendiri, ButtonAmbilTanpaRibet, IconInfoLaundry, NotifyInfoLaundry, 
 ProfileLaundry, MapPointLogo, OpenLogo, HandPhoneLogo, WhatsAppLogo, LeftArrow, Calenda1, NotifikasiAmbilTanpaRibet2, OrangNyuci, NotifikasiAmbilTanpaRibet3
 , RincianPesananKaos, RincianPesananCelanaPendek, RincianPesananCelanaPanjang, RincianPesananJaket, RincianPesananBantal,
-MethodIcon, PaymentIcon, LogoBCA, LogoWhatsApp, IconRumah, TambahKurang, SarungBantal, KoasKaki, CelanaDalam, ThreeCircle}
+MethodIcon, PaymentIcon, LogoBCA, LogoWhatsApp, IconRumah, TambahKurang, SarungBantal, KoasKaki, CelanaDalam, ThreeCircle, QrisLaundry, LogoCeklis}
